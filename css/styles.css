@@ -1,0 +1,115 @@
+/*
+Use the following font famolies
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+body {
+  background-color: #E7E7E7;
+}
+
+p {
+  font-family: "Lato";
+  font-weight: 200;
+}
+
+h3 {
+  font-family: 'Lato';
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+hr {
+  width: 40%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #584f91, rgba(0, 0, 0, 0));
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 3.5rem;
+  color: #332459;
+}
+
+.navbar-brand {
+  font-family: "Lato";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #332459;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #332459;
+}
+
+/* Title */
+.title {
+  background-image: url(cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.volunteerProgram {
+  color: black;
+  padding: 4.5rem;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 7rem;
+}
+
+/* Overview */
+.volunteer-overview {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 3rem 13rem;
+  background-color: white;
+}
+
+/* Cards */
+/* Features Section */
+.features {
+  padding: 0 15% 7%;
+  position: relative;
+  font-family: "Roboto";
+  font-weight: 200;
+  background-color: white;
+}
+
+.card {
+  padding: 3%;
+  text-align: center;
+  margin: 1%;
+  border: none;
+}
+
+/* Footer */
+/* Features Section */
+.footer {
+  background-color: #ffd249;
+  padding: 3% 15% 0;
+  position: relative;
+}
+
+.footer-box {
+  padding: 3%;
+  text-align: center;
+}
+
+.footer-icons {
+  color: #332459;
+  padding: 2%;
+  margin-bottom: 1rem;
+}
+
+.footer-icons:hover {
+  color: #c9c9de;
+}
