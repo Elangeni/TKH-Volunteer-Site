@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
 
 */
 body {
-  background-color: #E7E7E7;
+  background-color: white;
 }
 
 p {
@@ -78,10 +78,14 @@ hr {
 /* Features Section */
 .features {
   padding: 0 15% 7%;
-  position: relative;
   font-family: "Roboto";
   font-weight: 200;
   background-color: white;
+}
+
+.features-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .card {
@@ -91,8 +95,41 @@ hr {
   border: none;
 }
 
+/* FAQs */
+
+.faq-section{
+  background-color: white;
+}
+
+.grid-container{
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  column-gap: 1rem;
+}
+
+.faq-img{
+  padding: 1rem;
+  width: 75%;
+  height: 100%;
+  width: 100%;
+}
+
+.faq-title{
+  padding: 1rem;
+  margin: 0 4rem;
+  font: "Lato";
+}
+
+
+.faq{
+  padding: 0;
+}
+
+
+
+
 /* Footer */
-/* Features Section */
 .footer {
   background-color: #ffd249;
   padding: 3% 15% 0;
